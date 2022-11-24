@@ -1,0 +1,113 @@
+.log-form{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 65vw;
+    height: 75vh;
+    background-color: white;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur( 18.5px );
+    -webkit-backdrop-filter: blur( 18.5px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+}
+.pic{
+    background-image: url("./backgroundteal.avif");
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    flex:50%;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+.details{
+    font-family: 'Poppins', sans-serif;
+    margin:70px;
+    flex: 50%;
+}
+.Button {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 120px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #00a3b3; 
+    color: #fff; 
+    border: 2px solid  rgb(7, 235, 235);
+    border-radius: 8px;
+}
+  
+.Button:hover {
+    background-color: #4c8eaf;
+}
+
+.Option{
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: underline;
+        display: inline-block;
+        font-size: 16px;
+        margin: 20px 0px ;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: white;
+        color:#00a3b3; 
+        background-color: transparent;
+        text-align: flex-end;
+    }
+
+.Option:hover {
+        background-color:#00a3b3;
+        color: white;
+}
+
+#Enrollment {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: text;
+    border: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    }
+ #Password {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        transition-duration: 0.4s;
+        cursor: text;
+        border: white;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+        }
+h1{
+    margin-top: 2px;
+    font-size: 50px;
+    font-family: 'Laila', sans-serif;
+    color: #00b1c4;
+}
